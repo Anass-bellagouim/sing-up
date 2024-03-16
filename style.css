@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contanier{
+    width: 100%;
+    height: 100vh;
+    background: url(img/technology-785742.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contanier .login{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background: rgba(67, 75, 190, 0.11);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px -10px 28px 0px rgba(0, 0, 0, 7);
+    padding: 65px 40px 40px;
+    position: relative;
+}
+.login .user{
+    width: 80px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50px;
+}
+.login h1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.login form label{
+    color: white;
+    font-weight: bold;
+}
+.login form input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.login form button{
+    color: black;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.login .line-or{
+    text-align: center;
+    position: relative;
+}
+.login .line-or span{
+    color: white;
+}
+.login .line-or span::after{
+    content: '';
+    position: absolute;
+    width: 115px;
+    height: 1px;
+    background: white;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.login .line-or span::before{
+    content: '';
+    position: absolute;
+    width: 115px;
+    height: 1px;
+    background: white;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.login .btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.login .btns .btn img{
+    width: 155px;
+    border-radius: 1px solid;
+    border-radius: 5px;
+}
+.login .btns .btn img.fb{
+    border-color: rgb(15, 21, 144);
+}
+.login .btns .btn img.google{
+    border-color: rgb(144, 15, 17);
+}
+.login .Signup{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.login .Signup a{
+    color: rgb(76, 141, 246);
+    text-align: none;
+    font-weight: bold;
+    
+}
